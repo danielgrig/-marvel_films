@@ -1,0 +1,234 @@
+body {
+    background: url(../pictures/342092.jpg) fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.616);
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav {
+    border: none;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 20%;
+    margin-bottom: 0.6%;
+    background-color: rgba(77, 77, 77, 0.967);
+    display: flex;
+}
+
+main {
+    margin-left: 11%;
+    margin-right: 11%;
+    padding-top: 1px;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: rgba(77, 77, 77, 0.967);
+    font-family: 'Segoe UI',
+        Tahoma,
+        Verdana,
+        sans-serif;
+}
+
+.menuh {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    display: flex;
+    align-content: start;
+}
+
+form {
+    display: flex;
+    margin-left: 48%;
+    margin-bottom: 1.2%;
+    margin-top: 1.2%;
+}
+
+.search {
+    border: none;
+    font-size: 17px;
+}
+.button {
+    background: url(./pictures/search1.jpg) no-repeat;
+    background-size: 40px 100%;
+    width: 40px;
+    border: none;
+}
+
+.logo {
+    padding: 1% 7% 1% 2%;
+    margin: 2px 2px 2px 2%;
+    background: url(../pictures/logo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.drop {
+    display: flex;
+    align-content: center;
+}
+
+.drStrenge {
+    margin: 5% 0% 5% 3%;
+    height: 390px;
+    width: 26%;
+    background: url(./pictures/drStrenge2.jpg) no-repeat;
+    background-size: 100% 100%;
+    border-style: ridge;
+    color: rgb(100, 100, 100);
+}
+
+.spiderMan3 {
+    margin: 5% 0% 5% 3%;
+    height: 390px;
+    width: 26%;
+    background: url(./pictures/spiderMan3.jpg) no-repeat;
+    background-size: 100% 100%;
+    border-style: ridge;
+    color: rgb(100, 100, 100);
+}
+
+.info {
+    padding: 5% 5% 5% 5%;
+}
+
+.filmName {
+    margin: 0;
+}
+
+hr {
+
+    width: 90%;
+}
+
+
+
+
+
+
+ul {
+    display: block;
+    margin-top: 1%;
+    padding-left: 2%;
+    margin-bottom: 1%;
+    list-style: none;
+    display: flex;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul.menu>li {
+    float: left;
+    position: relative;
+}
+
+ul.menu>li>a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgba(56, 56, 56, 0.944);
+    margin-right: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3),
+        0 10px 10px rgba(0, 0, 0, 0.258);
+}
+
+ul.menu>li>a:hover {
+    background-color: black;
+}
+
+ul.submenu>li>a:hover {
+    background-color: black;
+    transition: 1s;
+    transform: scale(1.07);
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    max-height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+ul.submenu>li {
+    display: block;
+}
+
+ul.submenu>li>a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(62, 62, 62);
+    text-decoration: none;
+}
+
+ul.submenu>li>a:hover {
+    text-decoration: underline;
+}
+
+ul.menu>li:hover>ul.submenu {
+    display: block;
+}
+
+
+
+
+
+
+
+
+ul.submenu::-webkit-scrollbar-button {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 0px
+}
+
+ul.submenu::-webkit-scrollbar-track {
+    background-color: #ecedee
+}
+
+ul.submenu::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #ff0000;
+}
+
+ul.submenu::-webkit-scrollbar-thumb:hover {
+    background-color: #56999f;
+}
+
+ul.submenu::-webkit-resizer {
+    background-image: url('');
+    background-repeat: no-repeat;
+    width: 4px;
+    height: 0px
+}
+
+ul.submenu::-webkit-scrollbar {
+    width: 4px;
+}
