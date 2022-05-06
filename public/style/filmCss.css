@@ -64,8 +64,9 @@ form {
     font-size: 17px;
 }
 .button {
-    background: url(./pictures/search1.jpg) no-repeat;
+    background: url(../pictures/search1.jpg) no-repeat;
     background-size: 40px 100%;
+    background-color: aqua;
     width: 40px;
     border: none;
 }
@@ -88,7 +89,7 @@ form {
     margin: 5% 0% 5% 3%;
     height: 390px;
     width: 26%;
-    background: url(./pictures/drStrenge2.jpg) no-repeat;
+    background: url(../pictures/drStrenge2.jpg) no-repeat;
     background-size: 100% 100%;
     border-style: ridge;
     color: rgb(100, 100, 100);
@@ -98,7 +99,7 @@ form {
     margin: 5% 0% 5% 3%;
     height: 390px;
     width: 26%;
-    background: url(./pictures/spiderMan3.jpg) no-repeat;
+    background: url(../pictures/spiderMan3.jpg) no-repeat;
     background-size: 100% 100%;
     border-style: ridge;
     color: rgb(100, 100, 100);
