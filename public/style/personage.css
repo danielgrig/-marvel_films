@@ -30,7 +30,7 @@ nav {
     margin-right: 11%;
     margin-top: 20%;
     margin-bottom: 0.6%;
-    background-color: rgba(77, 77, 77, 0.967);
+    background-color: rgba(34, 76, 120, 0.985);
     display: flex;
 }
 
@@ -40,11 +40,8 @@ main {
     padding-top: 1px;
     font-size: 20px;
     color: antiquewhite;
-    background-color: rgba(77, 77, 77, 0.967);
-    font-family: 'Segoe UI',
-        Tahoma,
-        Verdana,
-        sans-serif;
+    background-color: rgba(34, 76, 120, 0.985);
+
 }
 
 .menuh {
@@ -53,11 +50,12 @@ main {
     margin-left: 1%;
     display: flex;
     align-content: start;
+    font-size: 18px;
 }
 
 form {
     display: flex;
-    margin-left: 39%;
+    margin-left: 45%;
     margin-bottom: 1.2%;
     margin-top: 1.2%;
 }
@@ -66,6 +64,7 @@ form {
     border: none;
     font-size: 17px;
 }
+
 .button {
     background: url(../pictures/search1.jpg) no-repeat;
     background-size: 40px 100%;
@@ -88,36 +87,145 @@ form {
     align-content: center;
 }
 
-.drStrenge {
+main>div>a {
     margin: 5% 0% 5% 3%;
-    height: 390px;
-    width: 26%;
-    background: url(../pictures/films/drStrenge2.jpg) no-repeat;
-    background-size: 100% 100%;
+    height: 340px;
+    width: 23%;
+    background-color: #1f81ae;
     border-style: ridge;
     color: rgb(100, 100, 100);
+    
 }
 
-.spiderMan3 {
-    margin: 5% 0% 5% 3%;
-    height: 390px;
-    width: 26%;
-    background: url(../pictures/films/spiderMan3.jpg) no-repeat;
+.ironman {
+    background: url(../pictures/person/ironman.jpg);
     background-size: 100% 100%;
-    border-style: ridge;
-    color: rgb(100, 100, 100);
+}
+
+.kapitan-america {
+    background: url(../pictures/person/kapitan-america.jpg);
+    background-size: 100% 100%;
+}
+
+.tor {
+    background: url(../pictures/person/tor.jpg);
+    background-size: 100% 100%;
+}
+
+.loki {
+    background: url(../pictures/person/loki.jpg);
+    background-size: 100% 100%;
+}
+
+.halk {
+    background: url(../pictures/person/halk.jpg);
+    background-size: 100% 100%;
+}
+
+.spider-man {
+    background: url(../pictures/person/spider-man.jpg);
+    background-size: 100% 100%;
+}
+
+.voitel {
+    background: url(../pictures/person/voitel.jpg);
+    background-size: 100% 100%;
+}
+
+.dr-strange {
+    background: url(../pictures/person/dr-strange.jpg);
+    background-size: 100% 100%;
+}
+
+.sokol {
+    background: url(../pictures/person/sokol.jpg);
+    background-size: 100% 100%;
+}
+
+.fiyri {
+    background: url(../pictures/person/fiyri.jpg);
+    background-size: 100% 100%;
+}
+
+.zimniy-soldat {
+    background: url(../pictures/person/zimniy-soldat.jpg);
+    background-size: 100% 100%;
+}
+
+.sokoliniy-glaz {
+    background: url(../pictures/person/sokoliniy-glaz.jpg);
+    background-size: 100% 100%;
+}
+
+.black-widow {
+    background: url(../pictures/person/black-widow.jpg);
+    background-size: 100% 100%;
+}
+
+.chel-muravey {
+    background: url(../pictures/person/chel-muravey.jpg);
+    background-size: 100% 100%;
+}
+
+.osa {
+    background: url(../pictures/person/osa.jpg);
+    background-size: 100% 100%
+}
+
+.black-panter {
+    background: url(../pictures/person/black-panter.jpg);
+    background-size: 100% 100%
+}
+
+.alaya-vedma {
+    background: url(../pictures/person/alaya-vedma.jpg);
+    background-size: 100% 100%
+}
+
+.vision {
+    background: url(../pictures/person/vision.jpg);
+    background-size: 100% 100%
+}
+
+.kapitan-marvel {
+    background: url(../pictures/person/kapitan-marvel.jpg);
+    background-size: 100% 100%
+}
+
+.star-lord {
+    background: url(../pictures/person/star-lord.jpg);
+    background-size: 100% 100%
+}
+
+.grut {
+    background: url(../pictures/person/grut.jpg);
+    background-size: 100% 100%
+}
+
+.gamora {
+    background: url(../pictures/person/gamora.jpg);
+    background-size: 100% 100%
+}
+
+.draks {
+    background: url(../pictures/person/draks.jpg);
+    background-size: 100% 100%
+}
+
+.raketa {
+    background: url(../pictures/person/raketa.jpg);
+    background-size: 100% 100%
 }
 
 .info {
     padding: 5% 5% 5% 5%;
 }
 
-.filmName {
+.personName {
     margin: 0;
 }
 
 hr {
-
     width: 90%;
 }
 
@@ -151,18 +259,18 @@ ul.menu>li>a {
     display: block;
     padding: 10px;
     color: white;
-    background-color: rgba(56, 56, 56, 0.944);
+    background-color: rgba(0, 83, 199, 0.944);
     margin-right: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3),
-        0 10px 10px rgba(0, 0, 0, 0.258);
+    box-shadow: 0 3px 7px rgba(255, 255, 255, 0.3),
+        0 2px 2px rgba(255, 255, 255, 0.348);
 }
 
 ul.menu>li>a:hover {
-    background-color: black;
+    background-color: rgb(3, 1, 124);
 }
 
 ul.submenu>li>a:hover {
-    background-color: black;
+    background-color: rgb(3, 1, 124);
     transition: 1s;
     transform: scale(1.07);
 }
@@ -171,11 +279,12 @@ ul.submenu {
     display: none;
     position: absolute;
     width: 120px;
-    top: 37px;
+    top: 100%;
     left: 0;
     max-height: 250px;
     overflow-y: scroll;
     overflow-x: hidden;
+    z-index: 1;
 }
 
 ul.submenu>li {
@@ -186,7 +295,10 @@ ul.submenu>li>a {
     display: block;
     padding: 10px;
     color: white;
-    background-color: rgb(62, 62, 62);
+    background-color: rgb(0,
+    67,
+    161,
+    0.944);
     text-decoration: none;
 }
 
@@ -219,7 +331,7 @@ ul.submenu::-webkit-scrollbar-track {
 ul.submenu::-webkit-scrollbar-thumb {
     -webkit-border-radius: 0px;
     border-radius: 0px;
-    background-color: #ff0000;
+    background-color: #1f81ae;
 }
 
 ul.submenu::-webkit-scrollbar-thumb:hover {
