@@ -47,6 +47,13 @@ main {
         sans-serif;
 }
 
+main>div>a>span {
+    background-color: #ff0000b0;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
 .menuh {
     margin-top: 1%;
     margin-bottom: 1%;
@@ -88,7 +95,7 @@ form {
     align-content: center;
 }
 
-.drStrenge {
+.dr-strenge {
     margin: 5% 0% 5% 3%;
     height: 390px;
     width: 26%;
@@ -98,7 +105,7 @@ form {
     color: rgb(100, 100, 100);
 }
 
-.spiderMan3 {
+.spider-man3 {
     margin: 5% 0% 5% 3%;
     height: 390px;
     width: 26%;
@@ -176,6 +183,7 @@ ul.submenu {
     max-height: 250px;
     overflow-y: scroll;
     overflow-x: hidden;
+    z-index: 1;
 }
 
 ul.submenu>li {

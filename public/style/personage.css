@@ -44,6 +44,13 @@ main {
 
 }
 
+main>div>a>span {
+    background-color: #ff000067;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
 .menuh {
     margin-top: 1%;
     margin-bottom: 1%;
