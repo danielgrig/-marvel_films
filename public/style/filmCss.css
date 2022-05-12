@@ -49,9 +49,13 @@ main {
 
 main>div>a>span {
     background-color: #ff0000b0;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 17px;
+}
+
+main>h2 {
+    text-align: center;
 }
 
 .menuh {
@@ -90,29 +94,82 @@ form {
 
 }
 
+
 .drop {
     display: flex;
     align-content: center;
 }
 
-.dr-strenge {
+.drop>a {
     margin: 5% 0% 5% 3%;
     height: 390px;
     width: 26%;
-    background: url(../pictures/films/drStrenge2.jpg) no-repeat;
-    background-size: 100% 100%;
     border-style: ridge;
     color: rgb(100, 100, 100);
 }
 
+.drop>a:hover {
+    color: white;
+}
+
+.dr-strenge {
+    background: url(../pictures/films/drStrenge2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.moon-knight {
+    background: url(../pictures/films/moon-knight.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
 .spider-man3 {
-    margin: 5% 0% 5% 3%;
-    height: 390px;
-    width: 26%;
     background: url(../pictures/films/spiderMan3.jpg) no-repeat;
     background-size: 100% 100%;
-    border-style: ridge;
-    color: rgb(100, 100, 100);
+}
+
+.eternal {
+    background: url(../pictures/films/eternal.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.shan-chi {
+    background: url(../pictures/films/shan-chi.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.hawkeye {
+    background: url(../pictures/films/hawkeye.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.black-widow {
+    background: url(../pictures/films/black-widow.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.what-if {
+    background: url(../pictures/films/what-if.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spider-man2 {
+    background: url(../pictures/films/Spider-Man2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.loki {
+    background: url(../pictures/films/loki.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.falcon {
+    background: url(../pictures/films/falcon.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.vanda-vision {
+    background: url(../pictures/films/vanda-vision.jpg) no-repeat;
+    background-size: 100% 100%;
 }
 
 .info {
