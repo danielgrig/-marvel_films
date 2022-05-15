@@ -58,6 +58,30 @@ main>h2 {
     text-align: center;
 }
 
+.descript {
+    margin-top: 25%;
+}
+
+.descript>li {
+    margin: 20px 0;
+}
+
+.descript>.a {
+    list-style-image: url(../pictures/regi.png);
+}
+
+.descript>.b {
+    list-style-image: url(../pictures/time1.png);
+}
+
+.descript>.c {
+    list-style-image: url(../pictures/actr.png);
+}
+
+.descript>.d {
+    list-style-image: url(../pictures/pers.png);
+}
+
 .menuh {
     margin-top: 1%;
     margin-bottom: 1%;
@@ -112,7 +136,7 @@ form {
     color: white;
 }
 
-.dr-strenge {
+.dr-strenge2 {
     background: url(../pictures/films/drStrenge2.jpg) no-repeat;
     background-size: 100% 100%;
 }
@@ -152,11 +176,6 @@ form {
     background-size: 100% 100%;
 }
 
-.spider-man2 {
-    background: url(../pictures/films/Spider-Man2.jpg) no-repeat;
-    background-size: 100% 100%;
-}
-
 .loki {
     background: url(../pictures/films/loki.jpg) no-repeat;
     background-size: 100% 100%;
@@ -171,6 +190,130 @@ form {
     background: url(../pictures/films/vanda-vision.jpg) no-repeat;
     background-size: 100% 100%;
 }
+
+.spider-man2 {
+    background: url(../pictures/films/Spider-Man2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.avengers-final {
+    background: url(../pictures/films/avengers-final.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.capitan-marvel {
+    background: url(../pictures/films/captain-marvel.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.ant-man2 {
+    background: url(../pictures/films/ant-man2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.avengers-infinit {
+    background: url(../pictures/films/avengers-infinit.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.black-panther {
+    background: url(../pictures/films/black-panther.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.tor3 {
+    background: url(../pictures/films/tor3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spider-man {
+    background: url(../pictures/films/spider-man.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.straji-galaktik2 {
+    background: url(../pictures/films/straji-galaktik2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.dr-strenge {
+    background: url(../pictures/films/dr-strenge.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.capitan-america3 {
+    background: url(../pictures/films/captain-america3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.ant-man {
+    background: url(../pictures/films/ant-man.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.avengers2 {
+    background: url(../pictures/films/avengers2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.straji-galaktik {
+    background: url(../pictures/films/straji-galaktik.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.capitan-america2 {
+    background: url(../pictures/films/captain-america2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.tor2 {
+    background: url(../pictures/films/tor2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.iron-man3 {
+    background: url(../pictures/films/iron-man3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.avengers {
+    background: url(../pictures/films/avengers.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.capitan-america {
+    background: url(../pictures/films/captain-america.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.tor {
+    background: url(../pictures/films/tor.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.iron-man2 {
+    background: url(../pictures/films/iron-man2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.hulk {
+    background: url(../pictures/films/hulk.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.iron-man {
+    background: url(../pictures/films/iron-man.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
 
 .info {
     padding: 5% 5% 5% 5%;
@@ -190,8 +333,7 @@ hr {
 
 
 
-ul {
-    display: block;
+ul.menu {
     margin-top: 1%;
     padding-left: 2%;
     margin-bottom: 1%;
@@ -241,6 +383,10 @@ ul.submenu {
     overflow-y: scroll;
     overflow-x: hidden;
     z-index: 1;
+    margin-top: 1%;
+    padding-left: 2%;
+    margin-bottom: 1%;
+    list-style: none;
 }
 
 ul.submenu>li {
