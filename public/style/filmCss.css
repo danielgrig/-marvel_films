@@ -58,8 +58,15 @@ main>h2 {
     text-align: center;
 }
 
+h3 {
+    background-color: rgba(0, 0, 0, 0.381);
+    padding: 5px;
+}
+
 .descript {
-    margin-top: 25%;
+    font-weight: 100;
+    width: 630px;
+    font-size: 18px;
 }
 
 .descript>li {
@@ -68,18 +75,32 @@ main>h2 {
 
 .descript>.a {
     list-style-image: url(../pictures/regi.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
 }
 
 .descript>.b {
     list-style-image: url(../pictures/time1.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
 }
 
 .descript>.c {
     list-style-image: url(../pictures/actr.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
 }
 
 .descript>.d {
     list-style-image: url(../pictures/pers.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
+}
+
+.descript>.e {
+    list-style-image: url(../pictures/sujet.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
 }
 
 .menuh {
@@ -125,7 +146,7 @@ form {
 }
 
 .drop>a {
-    margin: 5% 0% 5% 3%;
+    margin: 5% 0% 5% 4%;
     height: 390px;
     width: 26%;
     border-style: ridge;
@@ -316,7 +337,7 @@ form {
 
 
 .info {
-    padding: 5% 5% 5% 5%;
+    padding: 5% 1% 0% 1%;
 }
 
 .filmName {
