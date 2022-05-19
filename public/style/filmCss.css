@@ -150,11 +150,11 @@ form {
     height: 390px;
     width: 26%;
     border-style: ridge;
-    color: rgb(100, 100, 100);
+    color: rgb(255, 255, 255);
 }
 
 .drop>a:hover {
-    color: white;
+    border-color: rgb(255, 0, 0);
 }
 
 .dr-strenge2 {
