@@ -8,10 +8,6 @@ body {
         sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
 header {
     background-color: rgba(0, 0, 0, 0.616);
     display: block;
@@ -44,8 +40,12 @@ main {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
-main>h2 {
+h2 {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 hr {
@@ -53,16 +53,63 @@ hr {
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    height: 600px;
+    width: 280px;
+    height: 420px;
 }
 
+#player{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+}
 
+.info {
+    width: 65%;
+}
 
+.descript {
+        margin: 0;
+}
 
+.descript>li {
+    margin: 5px 0;
+}
+
+.descript>.a {
+    list-style-image: url(../pictures/regi.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
+}
+
+.descript>.b {
+    list-style-image: url(../pictures/time1.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
+}
+
+.descript>.c {
+    list-style-image: url(../pictures/actr.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
+}
+
+.descript>.d {
+    list-style-image: url(../pictures/pers.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
+}
+
+.descript>.e {
+    list-style-image: url(../pictures/sujet.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
+}
+
+.drop {
+    display: flex;
+    align-content: center;
+    font-size: 15px;
+}
 
 .menuh {
     margin-top: 1%;
@@ -125,22 +172,22 @@ ul.menu>li>a:hover {
 
 #slideshow {
     overflow: hidden;
-    height: 600px;
-    width: 400px;
-    margin: 0 auto;
+    height: 420px;
+    width: 280px;
+    margin-left: 5%;
     border-style: ridge;
     border-color: rgba(149, 107, 107, 0.566);
 }
 
 .slide {
     float: left;
-    height: 600px;
-    width: 400px;
+    height: 420px;
+    width: 280px;
     
 }
 
 .slide-wrapper {
-    width: calc(400px * 4);
+    width: calc(280px * 4);
     animation: slide 15s ease infinite;
 }
 
@@ -151,14 +198,14 @@ ul.menu>li>a:hover {
     }
 
     40% {
-        margin-left: calc(-400px * 1);
+        margin-left: calc(-280px * 1);
     }
 
     60% {
-        margin-left: calc(-400px * 2);
+        margin-left: calc(-280px * 2);
     }
 
     80% {
-        margin-left: calc(-400px * 3);
+        margin-left: calc(-280px * 3);
     }
 }

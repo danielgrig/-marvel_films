@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../player/playerjs1.js" type="text/javascript"></script>
     <title>Films</title>
 </head>
 
@@ -24,25 +25,46 @@
         </div>
     </nav>
     <main class="films">
-        <h2>Доктор Стрэндж</h2>
-        <hr>
-        <div id="slideshow">
-            <div class="slide-wrapper">
-                <div class="slide">
-                    <img src="../pictures/films/drStrenge2.jpg" alt="Доктор Стрэндж 2">
+        <h2>Доктор Стрэндж: В мультивселенной безумия</h2>
+        <div class="drop">
+            <div id="slideshow">
+                <div class="slide-wrapper">
+                    <div class="slide">
+                        <img src="../pictures/films/drStrenge2.jpg" alt="Доктор Стрэндж 2">
+                    </div>
+                    <div class="slide">
+                        <img src="../pictures/films/drStrenge2(2).jpg" alt="Доктор Стрэндж 2">
+                    </div>
+                    <div class="slide">
+                        <img src="../pictures/films/drStrenge2(3).jpg" alt="Доктор Стрэндж 2">
+                    </div>
+                    <div class="slide">
+                        <img src="../pictures/films/drStrenge2(4).jpg" alt="Доктор Стрэндж 2">
+                    </div>
                 </div>
-                <div class="slide">
-                    <img src="../pictures/films/drStrenge2(2).jpg" alt="Доктор Стрэндж 2">
-                </div>
-                <div class="slide">
-                    <img src="../pictures/films/drStrenge2(3).jpg" alt="Доктор Стрэндж 2">
-                </div>
-                <div class="slide">
-                    <img src="../pictures/films/drStrenge2(4).jpg" alt="Доктор Стрэндж 2">
-                </div>
+            </div>
+            <div class="info">
+                <ul class="descript">
+                    <li class="a"><b>Режиссёр:</b> Сэм Рэйми</li>
+                    <li class="b"><b>Длительность:</b> 126 мин</li>
+                    <li class="c"><b>В главных ролях: </b> Бенедикт Камбербэтч, Сочил Гомес, Элизабет Олсен, Чиветел Эджиофор, Бенедикт Вонг,Майкл Стулбарг, Рэйчел Макадамс</li>
+                    <li class="d"><b>Персонажи:</b> Доктор Стрэндж, Америка Чавес, Алая Ведьма, Вонг, Барон Мордо</li>
+                    <li class="e"><b>Кратко:</b> Во вселенной оказывается гостья, которая пришла из параллельного мира. Ей нужна помощь, так
+                        как на неё открыл охоту
+                        монстр, способный уничтожить мультивселенную. Ему нужна Америка Чавес,...</li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h2>Доктор Стрэндж: В мультивселенной безумия</h2>
+            <div id="player" poster="../pictures/player.jpg">
             </div>
         </div>
     </main>
+    <script>
+        var player = new Playerjs({ id: "player", file: "../video/s01e05_480.mp4", qualities: "480p,720p", poster: "../pictures/player.jpg"});
+    </script>
 </body>
 
 </html>
