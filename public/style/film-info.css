@@ -25,9 +25,13 @@ nav {
     margin-left: 11%;
     margin-right: 11%;
     margin-top: 20%;
-    margin-bottom: 0.6%;
+    margin-bottom: 20px;
     background-color: rgba(77, 77, 77, 0.967);
     display: flex;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.445),
+    0 10px 15px rgba(0, 0, 0, 0.386);
+    border: solid;
+    border-color: #3e3e3e;
 }
 
 main {
@@ -38,10 +42,23 @@ main {
     color: antiquewhite;
     background-color: rgba(77, 77, 77, 0.967);
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.445),
+    0 10px 15px rgba(0, 0, 0, 0.386);
+    border: solid;
+    border-color: #3e3e3e;
 }
 
 h2 {
     text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin: 0;
 }
 
 a {
@@ -57,10 +74,36 @@ img {
     height: 420px;
 }
 
+span>a {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
 #player{
     width: 70%;
     height: auto;
     margin-left: 15%;
+    margin-bottom: 40px;
+}
+
+.screen {
+    display: inline-flex;
+    margin-left: 9%;
+}
+
+.screen>img {
+    height: 180px;
+    margin: 3px;
+}
+
+.screen>img:hover {
+    transition: 1s;
+    transform: scale(1.5);
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.445),
+    0 10px 15px rgba(0, 0, 0, 0.386);
 }
 
 .info {
@@ -79,30 +122,54 @@ img {
     list-style-image: url(../pictures/regi.png);
     background-color: #1c1c1c46;
     padding: 3px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .descript>.b {
     list-style-image: url(../pictures/time1.png);
     background-color: #1c1c1c46;
     padding: 3px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .descript>.c {
-    list-style-image: url(../pictures/actr.png);
+    list-style-image: url(../pictures/genre.png);
     background-color: #1c1c1c46;
     padding: 3px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .descript>.d {
-    list-style-image: url(../pictures/pers.png);
+    list-style-image: url(../pictures/primer.png);
     background-color: #1c1c1c46;
     padding: 3px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .descript>.e {
-    list-style-image: url(../pictures/sujet.png);
+    list-style-image: url(../pictures/actr.png);
     background-color: #1c1c1c46;
     padding: 3px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.descript>.f {
+    list-style-image: url(../pictures/pers.png);
+    background-color: #1c1c1c46;
+    padding: 3px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .drop {
@@ -126,6 +193,14 @@ img {
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
+}
+
+p.plot {
+    margin: 0 10% 0 10%;
+    padding: 10px;
+    background-color: #1c1c1c46;
+    text-align: justify;
+    font-weight: lighter;
 }
 
 

@@ -32,6 +32,10 @@ nav {
     margin-bottom: 0.6%;
     background-color: rgba(77, 77, 77, 0.967);
     display: flex;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.445),
+    0 10px 15px rgba(0, 0, 0, 0.386);
+    border: solid;
+    border-color: #3e3e3e;
 }
 
 main {
@@ -40,7 +44,6 @@ main {
     padding-top: 1px;
     font-size: 20px;
     color: antiquewhite;
-    background-color: rgba(77, 77, 77, 0.967);
     font-family: 'Segoe UI',
         Tahoma,
         Verdana,
@@ -56,6 +59,13 @@ main>div>a>span {
 
 main>h2 {
     text-align: center;
+    margin: 10px 35% 10px 35%;
+    padding-bottom: 5px;
+    background-color: rgba(77, 77, 77, 0.967);
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.445),
+    0 10px 15px rgba(0, 0, 0, 0.386);
+    border: solid;
+    border-color: #3e3e3e;
 }
 
 h3 {
@@ -143,6 +153,12 @@ form {
 .drop {
     display: flex;
     align-content: center;
+    border: solid;
+    border-color: #3e3e3e;
+    background-color: rgba(77, 77, 77, 0.967);
+    margin-bottom: 20px;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.445),
+    0 10px 15px rgba(0, 0, 0, 0.386);
 }
 
 .drop>a {

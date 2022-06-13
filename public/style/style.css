@@ -43,6 +43,10 @@ div.menuh>a {
 main {
     margin-left: 11%;
     margin-right: 11%;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.445),
+    0 10px 15px rgba(0, 0, 0, 0.386);
+    border: solid;
+    border-color: #3e3e3e;
 }
 
 footer {
@@ -70,6 +74,8 @@ footer {
     display: flex;
     align-content: start;
     background-color: rgba(77, 77, 77, 0.967);
+    border: solid;
+    border-color: #3e3e3e;
 }
 .menu1 {
     background-color: rgba(236, 0, 0, 0.935);

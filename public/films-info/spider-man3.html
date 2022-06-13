@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style/film-info.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../player/playerjs1.js" type="text/javascript"></script>
+    <title>Films</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+        </a>
+    </header>
+    <nav>
+
+        <div class="menuh">
+            <ul class="menu">
+                <li><a href="../films.html">Фильмы</a></li>
+                <li><a href="../index.html">Главная</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="films">
+        <h2>Человек Паук: Нет пути домой</h2>
+        <div class="drop">
+            <div id="slideshow">
+                <div class="slide-wrapper">
+                    <div class="slide">
+                        <img src="../pictures/films/spiderMan3.jpg" alt="Человек Паук 3">
+                    </div>
+                    <div class="slide">
+                        <img src="../pictures/films/spiderMan3(2).jpg" alt="Человек Паук 3">
+                    </div>
+                    <div class="slide">
+                        <img src="../pictures/films/spiderMan3(3).jpg" alt="Человек Паук 3">
+                    </div>
+                    <div class="slide">
+                        <img src="../pictures/films/spiderMan3(4).jpg" alt="Человек Паук 3">
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <ul class="descript">
+                    <li class="a"><b>Режиссёр:</b> Джон Уоттс</li>
+                    <li class="b"><b>Длительность:</b> 139 мин</li>
+                    <li class="c"><b>Жанр:</b> Боевик, Фантастика, Приключения</li>
+                    <li class="d"><b>Премьера:</b> 15 декабря 2021</li>
+                    <li class="e"><b>В главных ролях: </b> Том Холланд, Зендея, Бенедикт Камбербэтч, Мариса Томей, Джон Фавро</li>
+                    <li class="f"><b>Персонажи:</b> Человек Паук, Доктор Стрэндж</li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h4>Скриншоты</h4>
+            <hr>
+            <div class="screen">
+                <img src="../pictures/films/screen-spiderMan3.jpg" alt="">
+                <img src="../pictures/films/screen-spiderMan3(2).jpg" alt="">
+                <img src="../pictures/films/screen-spiderMan3(3).jpg" alt="">
+            </div>
+            <hr>
+            <h2>Человек Паук: Нет пути домой</h2>
+            <div id="player" poster="../pictures/player.jpg">
+            </div>
+            <span style="margin: 10%;">Предыдущий Фильмы:<a href=""> Вечные</a></span>
+            <span>Следующий Фильмы:<a href=""> Лунный Рыцарь</a></span>
+            <hr>
+            <h3>Сюжет</h3>
+            <p class="plot">Сюжет вновь разворачивается вокруг жизни Питера Паркера. Она просто идет кувырком, после того, как Мистерил поведал миру
+            о том, что именно скромный и нерешительный Питер является настоящим Человеком-пауком. Главному герою приходится
+            обратиться за помощью к доктору Стрэнджу. Но он что-то делает не так и вследствие неправильных действий нарушается ход
+            пространства и времени. Перед человечеством открывается вход в мультивселенную.</p>
+        </div>
+    </main>
+    <script>
+        var player = new Playerjs({ id: "player", file: "https://cdn1.kinogo.la/movies/6b7be1a7bbef02cf5076fd511ce0487b4ed5d721/2e44f7ce322481736312f55d9590ea10:2022061417//240.mp4", qualities: "480p,720p", poster: "../pictures/player.jpg" });
+    </script>
+</body>
+
+</html>
