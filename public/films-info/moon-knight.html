@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../style/film-info.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../player/playerjs2.js" type="text/javascript"></script>
+    <title>Films</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+        </a>
+    </header>
+    <nav>
+
+        <div class="menuh">
+            <ul class="menu">
+                <li><a href="../films.html">Фильмы</a></li>
+                <li><a href="../index.html">Главная</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="films">
+        <h2>Лунный Рыцарь (сериал)</h2>
+        <div class="drop">
+            <div id="slideshow">
+                <div class="slide-wrapper">
+                    <div class="slide">
+                        <img src="../pictures/films/moon-knight.jpg" alt="Лунный Рыцарь">
+                    </div>
+                    <div class="slide">
+                        <img src="../pictures/films/moon-knight(2).jpg" alt="Лунный Рыцарь">
+                    </div>
+                    <div class="slide">
+                        <img src="../pictures/films/moon-knight(3).jpg" alt="Лунный Рыцарь">
+                    </div>
+                    <div class="slide">
+                        <img src="../pictures/films/moon-knight(4).jpg" alt="Лунный Рыцарь">
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <ul class="descript">
+                    <li class="a"><b>Режиссёр:</b> Джастин Бенсон</li>
+                    <li class="b"><b>Длительность:</b> 45-50 мин</li>
+                    <li class="c"><b>Жанр:</b> Боевики, Драмы, Приключения, Ужасы, Фантастика</li>
+                    <li class="d"><b>Премьера:</b> 30 марта 2022</li>
+                    <li class="e"><b>В главных ролях: </b> Оскар Айзек, Итан Хоук, Гаспар Ульель, Ф. Мюррэй Абрахам, May Calamawy</li>
+                    <li class="f"><b>Персонажи:</b> Лунный Рыцарь</li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h4>Скриншоты</h4>
+            <hr>
+            <div class="screen">
+                <img src="../pictures/films/screen-moon-knight.jpg" alt="">
+                <img src="../pictures/films/screen-moon-knight(2).jpg" alt="">
+                <img src="../pictures/films/screen-moon-knight(3).jpg" alt="">
+            </div>
+            <hr>
+            <h2>Лунный Рыцарь</h2>
+            <div id="player" poster="../pictures/player.jpg">
+            </div>
+            <span style="margin: 10%;">Предыдущий Фильм: <a href="spider-man3.html"> Человек Паук։ Нет пути домой</a></span>
+            <span>Следующий Фильм: <a href="dr-strange2.html"> Доктор Стрэндж։ В мультивселенной безумия</a></span>
+            <hr>
+            <h3>Сюжет</h3>
+            <p class="plot">В пространстве между вселенными магический демон преследует Америку Чавес и альтернативную
+                версию Доктора Стивена
+                Стрэнджа («Защитника» Стрэнджа), которые пытаются добраться до Книги Вишанти. Однако их настигает демон,
+                и Стрэндж
+                пытается его сдержать. Он принимает решение забрать силу Америки, тем самым убив её. Однако в процессе,
+                существо
+                высвобождается, и смертельно ранит Стрэнджа. Америка пытается добраться до книги, но её хватает демон и,
+                испугавшись,
+                она открывает портал в виде звезды. Полуживой Стрэндж обрубает ленты демона и умирает, после чего
+                Америка и мёртвый
+                «Защитник» Стрэндж переносятся на Землю-616.</p>
+        </div>
+    </main>
+    <script>
+        var player = new Playerjs({
+            id: "player",
+            file: [
+                { "title": "1 Серия", "file": "https://cdn1.kinogo.la/tvseries/d863b30388dfa856c28ea6e500cf2c8019c9052d/73665096a7b8df93cc710b271c41d518:2022061519/240.mp4" },
+                { "title": "2 Серия", "file": "https://cdn1.kinogo.la/tvseries/7d04a802efb6be4d26044842ee931b9d53315f67/ce251c4caf073a885bd0bb4f4f00475b:2022061518/240.mp4" },
+                { "title": "3 Серия", "file": "https://cdn1.kinogo.la/tvseries/cd100de97cb43de058ff656947a63024b2d2317d/89f9b42dc33e34f641087f4036e34180:2022061519/240.mp4" },
+                { "title": "4 Серия", "file": "https://cdn1.kinogo.la/tvseries/8912dec6a3e8dfaab3c41c5b6338647932cb62ac/e32be1ee67207c79496f37019606d469:2022061519/240.mp4" },
+                { "title": "5 Серия", "file": "https://cdn1.kinogo.la/tvseries/2b806f8070d7277ca3adb7269008f7c37f4624eb/7daaee733517bd400527604a233d071f:2022061519/240.mp4" },
+                { "title": "6 Серия", "file": "https://cdn1.kinogo.la/tvseries/7f4f636c3d5286d8aac1588295924591b8106364/6614e6a08da53b6cd8694cedce3d61de:2022061519/240.mp4" },
+            ],
+            poster: "../pictures/player.jpg"
+        });    
+    </script>
+</body>
+</html>

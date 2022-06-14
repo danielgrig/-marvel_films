@@ -74,12 +74,15 @@ img {
     height: 420px;
 }
 
+span {
+    font-size: 13px;
+}
+
 span>a {
     background-color: red;
     color: white;
     font-weight: bold;
-    padding-bottom: 3px;
-    padding-right: 3px;
+    padding: 2px;
 }
 
 #player{

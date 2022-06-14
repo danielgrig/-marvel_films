@@ -40,6 +40,10 @@ div.menuh>a {
     0 10px 10px rgba(0, 0, 0, 0.258);
 }
 
+div.menuh>a:hover {
+    background-color:black;
+}
+
 main {
     margin-left: 11%;
     margin-right: 11%;
