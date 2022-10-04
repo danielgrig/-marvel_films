@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../player/playerjs1.js" type="text/javascript"></script>
+    <script src="../player/playerjs.js" type="text/javascript"></script>
     <title>Films</title>
 </head>
 
@@ -81,7 +81,11 @@
         </div>
     </main>
     <script>
-        var player = new Playerjs({ id: "player", file: "https://cdn1.kinogo.la/movies/7805a34c7758c727333b20f29c26c2cbd7ded4f0/98c95c68141751b6525ebc5ad5b4cc50:2022061416//240.mp4://kinogo.biz/52866-doktor-strjendzh-i-multivselennaja-bezumija.html", qualities: "480p,720p", poster: "../pictures/player.jpg"});
+        var player = new Playerjs({
+            id: "player",
+            file: "https://cdn1.kinogo.la/movies/7805a34c7758c727333b20f29c26c2cbd7ded4f0/06da0191511767b26ddbde5b8f08286d:2022061519//240.mp4",
+            poster: "../pictures/player.jpg"
+        });
     </script>
 </body>
 
